@@ -31,9 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add your GitHub repo URL here](https://your-solution-url.com)
-- Live Site URL: [Add your live site URL here](https://your-live-site-url.com)
-
+- Solution URL: https://github.com/Chinomnso-Ugba/Home-master
+- Live Site URL: https://home-master-tau.vercel.app/
 ## My process
 
 ### Built with
@@ -74,5 +73,4 @@ The `(index + slides.length) % slides.length` line is what lets the arrows wrap 
 ## Author
 
 - GitHub - [@Chinomnso-Ugba](https://github.com/Chinomnso-Ugba)
-- Frontend Mentor - [Add your Frontend Mentor profile link here](https://www.frontendmentor.io/profile/your-username)
-# Home-master
+- Frontend Mentor - https://www.frontendmentor.io/profile/1Chinomnso
