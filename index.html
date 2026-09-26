@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Room homepage</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <button type="button" class="site-header__toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav">
+      <img src="./images/icon-hamburger.svg" alt="" class="site-header__toggle-icon site-header__toggle-icon--open">
+      <img src="./images/icon-close.svg" alt="" class="site-header__toggle-icon site-header__toggle-icon--close">
+      <span class="visually-hidden">Menu</span>
+    </button>
+
+    <div class="site-header__brand">
+      <a href="#" class="site-header__logo">
+        <img src="./images/logo.svg" alt="room">
+      </a>
+
+      <nav class="primary-nav" id="primaryNav" aria-label="Primary">
+        <ul class="primary-nav__list">
+          <li><a href="#" class="is-active">home</a></li>
+          <li><a href="#">shop</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <main>
+
+    <!-- Hero / slider -->
+    <section class="hero" aria-roledescription="carousel" aria-label="Featured furniture">
+
+      <div class="hero__media">
+        <img src="./images/mobile-image-hero-1.jpg" alt="" class="hero__image hero__image--mobile" id="heroImageMobile">
+        <img src="./images/desktop-image-hero-1.jpg" alt="" class="hero__image hero__image--desktop" id="heroImageDesktop">
+
+        <div class="hero__controls">
+          <button type="button" class="hero__control" id="prevSlide">
+            <img src="./images/icon-angle-left.svg" alt="Previous slide">
+          </button>
+          <button type="button" class="hero__control" id="nextSlide">
+            <img src="./images/icon-angle-right.svg" alt="Next slide">
+          </button>
+        </div>
+      </div>
+
+      <div class="hero__content">
+        <h1 class="hero__title" id="heroTitle">Discover innovative ways to decorate</h1>
+        <p class="hero__text" id="heroText">We provide unmatched quality, comfort, and style for property owners across the country. Our experts combine form and function in bringing your vision to life. Create a room in your own style with our collection and make your property a reflection of you and what you love.</p>
+        <a href="#" class="cta-link">
+          <span>Shop now</span>
+          <img src="./images/icon-arrow.svg" alt="">
+        </a>
+      </div>
+
+    </section>
+
+    <!-- About -->
+    <section class="about">
+
+      <div class="about__media about__media--dark">
+        <img src="./images/image-about-dark.jpg" alt="Dark, cozy living room with a leather armchair and round coffee table" class="about__image">
+      </div>
+
+      <div class="about__content">
+        <h2 class="about__title">About our furniture</h2>
+        <p class="about__text">Our multifunctional collection blends design and function to suit your individual taste. Make each room unique, or pick a cohesive theme that best express your interests and what inspires you. Find the furniture pieces you need, from traditional to contemporary styles or anything in between. Product specialists are available to help you create your dream space.</p>
+      </div>
+
+      <div class="about__media about__media--light">
+        <img src="./images/image-about-light.jpg" alt="White chair against a bright, minimal wall" class="about__image">
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="./script.js"></script>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </footer>
+</body>
+</html>
